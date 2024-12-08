@@ -1,0 +1,653 @@
+[
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Howdy",
+        "What's up?",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! What can I do for you?",
+        "Hey there! How can I help you?",
+        "Good day! How can I assist you?"
+      ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "Bye",
+          "See you later",
+          "Take care",
+          "Bye bye",
+          "Have a great day",
+          "Farewell"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later! Take care.",
+          "Bye! Feel free to come back if you need help.",
+          "Take care! Let me know if you need anything else."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "Thanks a lot",
+          "Thanks so much",
+          "I appreciate it",
+          "Thank you very much"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Glad to be of help!",
+          "You're welcome! Let me know if you need anything else.",
+          "I'm happy to help! Let me know if you need more assistance."
+        ]
+      },
+      {
+        "tag": "about",
+        "patterns": [
+          "Tell me about yourself",
+          "What are you?",
+          "Who are you?",
+          "What do you do?",
+          "Can you tell me something about yourself?",
+          "What is your purpose?"
+        ],
+        "responses": [
+          "This chatbot provides information about train numbers for Southern Railways routes. You can ask for the train numbers running between specific stations in the Southern Railway network, such as from cities like Hyderabad, Bangalore, Chennai, and more.",
+          "I can provide you with the correct train numbers for various routes in Southern Railways. Just let me know the source and destination stations, and I’ll provide the corresponding train numbers.",
+          "I offer information on train numbers for routes within the Southern Railway zone. Simply tell me the starting and ending stations, and I’ll give you the relevant train numbers."
+        ]
+      },
+      {
+        "tag": "Chennai_to_Bangalore",
+        "patterns": [
+          "What trains are there from Chennai to Bangalore?",
+          "Which trains run from Chennai to Bangalore?",
+          "Tell me the trains from Chennai to Bangalore",
+          "What are the trains from Chennai to Bangalore?",
+          "Give me the train numbers from Chennai to Bangalore"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Bangalore: 12007, 12027, 12607, 12639, 12657, 15228,12577, 17311,22698, 22625, 12795, 12510,12609, 12691, 16021, 12296, 12292, 22601,22682, 22353.",
+          "Trains from Chennai to Bangalore include: 12007, 12027, 12607, 12639, 12657, 15228,12577, 17311,22698, 22625, 12795, 12510,12609, 12691, 16021, 12296, 12292, 22601,22682, 22353.",
+          "The trains running from Chennai to Bangalore are 12007, 12027, 12607, 12639, 12657, 15228,12577, 17311,22698, 22625, 12795, 12510,12609, 12691, 16021, 12296, 12292, 22601,22682, 22353."
+        ]
+      },
+      {
+        "tag": "Chennai_to_Madurai",
+        "patterns": [
+          "What trains are there from Chennai to Madurai?",
+          "Which trains run from Chennai to Madurai?",
+          "Tell me the trains from Chennai to Madurai",
+          "What are the trains from Chennai to Madurai?",
+          "Give me the train numbers from Chennai to Madurai"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Madurai: 12631, 12633, 12635, 12637, 12642, 12652, 12661, 12667, 16723.",
+          "Trains from Chennai to Madurai include: 12631, 12633, 12635, 12637, 12642, 12652, 12661, 12667, 16723.",
+          "The trains running from Chennai to Madurai are 12631, 12633, 12635, 12637, 12642, 12652, 12661, 12667, 16723."
+        ]
+      },
+       {
+        "tag": "Chennai_to_Coimbatore",
+        "patterns": [
+          "What trains are there from Chennai to Coimbatore?",
+          "Which trains run from Chennai to Coimbatore?",
+          "Tell me the trains from Chennai to Coimbatore",
+          "What are the trains from Chennai to Coimbatore?",
+          "Give me the train numbers from Chennai to Coimbatore"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Coimbatore: 12671, 12673, 12675, 12679, 12681, 22637,12695,12243,12623,12970, 13351,22645,22647, 12511, 12516, 22644, 12508, 22642,22207.",
+          "Trains from Chennai to Coimbatore include: 12671, 12673, 12675, 12679, 12681, 22637,12695,12243,12623,12970, 13351,22645,22647, 12511, 12516, 22644, 12508, 22642,22207.",
+          "The trains running from Chennai to Coimbatore are 12671, 12673, 12675, 12679, 12681, 22637,12695,12243,12623,12970, 13351,22645,22647, 12511, 12516, 22644, 12508, 22642,22207."
+        ]
+      },
+        {
+        "tag": "Chennai_to_Ahmedabad",
+        "patterns": [
+          "What trains are there from Chennai to Ahmedabad?",
+          "Which trains run from Chennai to Ahmedabad?",
+          "Tell me the trains from Chennai to Ahmedabad",
+          "What are the trains from Chennai to Ahmedabad?",
+          "Give me the train numbers from Chennai to Ahmedabad"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Ahmedabad: 12656, 22663, 19419, 19423.",
+          "Trains from Chennai to Ahmedabad include: 12656, 22663, 19419, 19423.",
+          "The trains running from Chennai to Ahmedabad are 12656, 22663, 19419, 19423."
+        ]
+      },
+        {
+        "tag": "Chennai_to_Pune",
+        "patterns": [
+          "What trains are there from Chennai to Pune?",
+          "Which trains run from Chennai to Pune?",
+          "Tell me the trains from Chennai to Pune",
+          "What are the trains from Chennai to Pune?",
+          "Give me the train numbers from Chennai to Pune"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Pune: 12164, 11028, 11042, 11074, 19419, 19423.",
+          "Trains from Chennai to Pune include: 12164, 11028, 11042, 11074, 19419, 19423.",
+          "The trains running from Chennai to Pune are 12164, 11028, 11042, 11074, 19419, 19423."
+        ]
+      },
+        {
+        "tag": "Chennai_to_Hyderabad",
+        "patterns": [
+          "What trains are there from Chennai to Hyderabad?",
+          "Which trains run from Chennai to Hyderabad?",
+          "Tell me the trains from Chennai to Hyderabad",
+          "What are the trains from Chennai to Hyderabad?",
+          "Give me the train numbers from Chennai to Hyderabad"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Hyderabad: 12603, 12759, 17651, 16003.",
+          "Trains from Chennai to Hyderabad include: 12603, 12759, 17651, 16003.",
+          "The trains running from Chennai to Hyderabad are 12603, 12759, 17651, 16003."
+        ]
+      },
+        {
+        "tag": "Chennai_to_Thiruvananthapuram",
+        "patterns": [
+          "What trains are there from Chennai to Thiruvananthapuram?",
+          "Which trains run from Chennai to Thiruvananthapuram?",
+          "Tell me the trains from Chennai to Thiruvananthapuram",
+          "What are the trains from Chennai to Thiruvananthapuram?",
+          "Give me the train numbers from Chennai to Thiruvananthapuram"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Thiruvananthapuram: 16127, 12695, 12623, 20635, 12511.",
+          "Trains from Chennai to Thiruvananthapuram include: 16127, 12695, 12623, 20635, 12511.",
+          "The trains running from Chennai to Thiruvananthapuram are 16127, 12695, 12623, 20635, 12511."
+        ]
+      },
+        {
+        "tag": "Chennai_to_Thiruchirapalli",
+        "patterns": [
+          "What trains are there from Chennai to Thiruchirapalli?",
+          "Which trains run from Chennai to Thiruchirapalli?",
+          "Tell me the trains from Chennai to Thiruchirapalli",
+          "What are the trains from Chennai to Thiruchirapalli?",
+          "Give me the train numbers from Chennai to Thiruchirapalli"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Thiruchirapalli: 12605, 12631, 12633, 12635, 12637, 12642,12652, 12661, 12693, 12663, 12667, 16723,16127, 12653, 22661, 12665, 16859.",
+          "Trains from Chennai to Thiruchirapalli include: 12605, 12631, 12633, 12635, 12637, 12642,12652, 12661, 12693, 12663, 12667, 16723,16127, 12653, 22661, 12665, 16859.",
+          "The trains running from Chennai to Thiruchirapalli are 12605, 12631, 12633, 12635, 12637, 12642,12652, 12661, 12693, 12663, 12667, 16723,16127, 12653, 22661, 12665, 16859."
+        ]
+      },
+         {
+        "tag": "Chennai_to_Bhubaneshwar",
+        "patterns": [
+          "What trains are there from Chennai to Bhubaneshwar?",
+          "Which trains run from Chennai to Bhubaneshwar?",
+          "Tell me the trains from Chennai to Bhubaneshwar",
+          "What are the trains from Chennai to Bhubaneshwar?",
+          "Give me the train numbers from Chennai to Bhubaneshwar"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Bhubaneshwar: 12842, 15227, 12507, 12509, 12829, 12515,15629, 15929, 12840, 12527, 22826, 22860,22643, 22611.",
+          "Trains from Chennai to Bhubaneshwar include: 12842, 15227, 12507, 12509, 12829, 12515,15629, 15929, 12840, 12527, 22826, 22860,22643, 22611.",
+          "The trains running from Chennai to Bhubaneshwar are 12842, 15227, 12507, 12509, 12829, 12515,15629, 15929, 12840, 12527, 22826, 22860,22643, 22611."
+        ]
+      },
+         {
+        "tag": "Chennai_to_New Delhi",
+        "patterns": [
+          "What trains are there from Chennai to New Delhi?",
+          "Which trains run from Chennai to New Delhi?",
+          "Tell me the trains from Chennai to New Delhi",
+          "What are the trains from Chennai to New Delhi?",
+          "Give me the train numbers from Chennai to New Delhi"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to New Delhi: 12433, 12611, 12621, 12269, 12641, 12651,16031, 12687, 22403.",
+          "Trains from Chennai to New Delhi include: 12433, 12611, 12621, 12269, 12641, 12651,16031, 12687, 22403.",
+          "The trains running from Chennai to New Delhi are 12433, 12611, 12621, 12269, 12641, 12651,16031, 12687, 22403."
+        ]
+      },
+         {
+        "tag": "Chennai_to_Vijaywada",
+        "patterns": [
+          "What trains are there from Chennai to Vijaywada?",
+          "Which trains run from Chennai to Vijaywada?",
+          "Tell me the trains from Chennai to Vijaywada",
+          "What are the trains from Chennai to Vijaywada?",
+          "Give me the train numbers from Chennai to Vijaywada"
+        ],
+        "responses": [
+          "The following trains are available from Chennai to Vijaywada: 12077, 12433, 12507, 12509, 12512, 12522,17643, 12611, 12615, 12621, 12641, 12656.",
+          "Trains from Chennai to Vijaywada include: 12077, 12433, 12507, 12509, 12512, 12522,17643, 12611, 12615, 12621, 12641, 12656.",
+          "The trains running from Chennai to Vijaywada are 12077, 12433, 12507, 12509, 12512, 12522,17643, 12611, 12615, 12621, 12641, 12656."
+        ]
+      },
+          {
+        "tag": "Hyderabad_to_Bangalore",
+        "patterns": [
+          "What trains are there from Hyderabad to Bangalore?",
+          "Which trains run from Hyderabad to Bangalore?",
+          "Tell me the trains from Hyderabad to Bangalore",
+          "What are the trains from Hyderabad to Bangalore?",
+          "Give me the train numbers from Hyderabad to Bangalore"
+        ],
+        "responses": [
+          "The following trains are available from Hyderabad to Bangalore: 12252, 20703, 12650, 22692, 12785, 17603, 19301."
+        ]
+      },
+      {
+        "tag": "Hyderabad_to_Chennai",
+        "patterns": [
+          "What trains are there from Hyderabad to Chennai?",
+          "Which trains run from Hyderabad to Chennai?",
+          "Tell me the trains from Hyderabad to Chennai",
+          "What are the trains from Hyderabad to Chennai?",
+          "Give me the train numbers from Hyderabad to Chennai"
+        ],
+        "responses": [
+          "The following trains are available from Hyderabad to Chennai: 12604, 12760, 17652."
+        ]
+      },
+      {
+        "tag": "Hyderabad_to_Delhi",
+        "patterns": [
+          "What trains are there from Hyderabad to Delhi?",
+          "Which trains run from Hyderabad to Delhi?",
+          "Tell me the trains from Hyderabad to Delhi",
+          "What are the trains from Hyderabad to Delhi?",
+          "Give me the train numbers from Hyderabad to Delhi"
+        ],
+        "responses": [
+          "The following trains are available from Hyderabad to Delhi: 12723, 22691, 12649, 12647, 12707, 12721 ."
+        ]
+      },
+      {
+        "tag": "Hyderabad_to_Kolkata",
+        "patterns": [
+          "What trains are there from Hyderabad to Kolkata?",
+          "Which trains run from Hyderabad to Kolkata?",
+          "Tell me the trains from Hyderabad to Kolkata",
+          "What are the trains from Hyderabad to Kolkata?",
+          "Give me the train numbers from Hyderabad to Kolkata"
+        ],
+        "responses": [
+          "The following trains are available from Hyderabad to Kolkata: 07225, 18046, 12704."
+        ]
+      },
+      {
+        "tag": "Hyderabad_to_Visakhapatnam",
+        "patterns": [
+          "What trains are there from Hyderabad to Visakhapatnam?",
+          "Which trains run from Hyderabad to Visakhapatnam?",
+          "Tell me the trains from Hyderabad to Visakhapatnam",
+          "What are the trains from Hyderabad to Visakhapatnam?",
+          "Give me the train numbers from Hyderabad to Visakhapatnam"
+        ],
+        "responses": [
+          "The following trains are available from Hyderabad to Visakhapatnam: 11019, 07225, 18112, 20707, 12806, 18046, 20834, 17016, 12728, 12862, 22204."
+        ]
+      },
+      {
+        "tag": "Hyderabad_to_Vijayawada",
+        "patterns": [
+          "What trains are there from Hyderabad to Vijayawada?",
+          "Which trains run from Hyderabad to Vijayawada?",
+          "Tell me the trains from Hyderabad to Vijayawada",
+          "What are the trains from Hyderabad to Vijayawada?",
+          "Give me the train numbers from Hyderabad to Vijayawada"
+        ],
+        "responses": [
+          "The following trains are available from Hyderabad to Vijayawada: 17222, 11019, 12796, 18112, 17205, 12806, 18046."
+        ]
+      },
+      {
+        "tag": "Hyderabad_to_Tirupati",
+        "patterns": [
+          "What trains are there from Hyderabad to Tirupati?",
+          "Which trains run from Hyderabad to Tirupati?",
+          "Tell me the trains from Hyderabad to Tirupati",
+          "What are the trains from Hyderabad to Tirupati?",
+          "Give me the train numbers from Hyderabad to Tirupati"
+        ],
+        "responses": [
+          "The following trains are available from Hyderabad to Tirupati: 17406, 20701, 17230, 12734, 12766, 12794, 12797."
+        ]
+      },
+      {
+        "tag": "Hyderabad_to_Thiruvananthapuram",
+        "patterns": [
+          "What trains are there from Hyderabad to Thiruvananthapuram?",
+          "Which trains run from Hyderabad to Thiruvananthapuram?",
+          "Tell me the trains from Hyderabad to Thiruvananthapuram",
+          "What are the trains from Hyderabad to Thiruvananthapuram?",
+          "Give me the train numbers from Hyderabad to Thiruvananthapuram"
+        ],
+        "responses": [
+          "The following trains are available from Hyderabad to Thiruvananthapuram: 12730."
+        ]
+      },
+      {
+        "tag": "Hyderabad_to_Bhubaneswar",
+        "patterns": [
+          "What trains are there from Hyderabad to Bhubaneswar?",
+          "Which trains run from Hyderabad to Bhubaneswar?",
+          "Tell me the trains from Hyderabad to Bhubaneswar",
+          "What are the trains from Hyderabad to Bhubaneswar?",
+          "Give me the train numbers from Hyderabad to Bhubaneswar"
+        ],
+        "responses": [
+          "The following trains are available from Hyderabad to Bhubaneswar: 11019, 18046, 12704, 17016."
+        ]
+      },
+       {
+        "tag": "Bangalore_to_Chennai",
+        "patterns": [
+          "What trains are there from Bangalore to Chennai?",
+          "Which trains run from Bangalore to Chennai?",
+          "Tell me the trains from Bangalore to Chennai",
+          "What are the trains from Bangalore to Chennai?",
+          "Give me the train numbers from Bangalore to Chennai"
+        ],
+        "responses": [
+          "The following trains are available from Bangalore to Chennai: 12028, 12608, 20663, 12610, 12295, 22626, 12008."
+        ]
+      },
+      {
+        "tag": "Bangalore_to_Hyderabad",
+        "patterns": [
+          "What trains are there from Bangalore to Hyderabad?",
+          "Which trains run from Bangalore to Hyderabad?",
+          "Tell me the trains from Bangalore to Hyderabad",
+          "What are the trains from Bangalore to Hyderabad?",
+          "Give me the train numbers from Bangalore to Hyderabad"
+        ],
+        "responses": [
+          "The following trains are available from Bangalore to Hyderabad: 17604, 12786, 20704, 22691, 12649."
+        ]
+      },
+      {
+        "tag": "Bangalore_to_Mysore",
+        "patterns": [
+          "What trains are there from Bangalore to Mysore?",
+          "Which trains run from Bangalore to Mysore?",
+          "Tell me the trains from Bangalore to Mysore",
+          "What are the trains from Bangalore to Mysore?",
+          "Give me the train numbers from Bangalore to Mysore"
+        ],
+        "responses": [
+          "The following trains are available from Bangalore to Mysore: 06270, 06559, 16021, 16220, 16228, 16591."
+        ]
+      },
+      {
+        "tag": "Bangalore_to_Pune",
+        "patterns": [
+          "What trains are there from Bangalore to Pune?",
+          "Which trains run from Bangalore to Pune?",
+          "Tell me the trains from Bangalore to Pune",
+          "What are the trains from Bangalore to Pune?",
+          "Give me the train numbers from Bangalore to Pune"
+        ],
+        "responses": [
+          "The following trains are available from Bangalore to Pune: 11014, 11302, 16887, 16614."
+        ]
+      },
+      {
+        "tag": "Bangalore_to_Thiruvananthapuram",
+        "patterns": [
+          "What trains are there from Bangalore to Thiruvananthapuram?",
+          "Which trains run from Bangalore to Thiruvananthapuram?",
+          "Tell me the trains from Bangalore to Thiruvananthapuram",
+          "What are the trains from Bangalore to Thiruvananthapuram?",
+          "Give me the train numbers from Bangalore to Thiruvananthapuram"
+        ],
+        "responses": [
+          "The following trains are available from Bangalore to Thiruvananthapuram: 16315, 16320, 16526."
+        ]
+      },
+      {
+        "tag": "Bangalore_to_Vijayawada",
+        "patterns": [
+          "What trains are there from Bangalore to Vijayawada?",
+          "Which trains run from Bangalore to Vijayawada?",
+          "Tell me the trains from Bangalore to Vijayawada",
+          "What are the trains from Bangalore to Vijayawada?",
+          "Give me the train numbers from Bangalore to Vijayawada"
+        ],
+        "responses": [
+          "The following trains are available from Bangalore to Vijayawada: 12295, 12864, 17209, 18464, 12246."
+        ]
+      },
+      {
+        "tag": "Bangalore_to_Bhubaneswar",
+        "patterns": [
+          "What trains are there from Bangalore to Bhubaneswar?",
+          "Which trains run from Bangalore to Bhubaneswar?",
+          "Tell me the trains from Bangalore to Bhubaneswar",
+          "What are the trains from Bangalore to Bhubaneswar?",
+          "Give me the train numbers from Bangalore to Bhubaneswar"
+        ],
+        "responses": [
+          "The following trains are available from Bangalore to Bhubaneswar: 22832, 12503, 12864, 12246, 18464."
+        ]
+      },
+      {
+        "tag": "Bangalore_to_Tiruchirappalli",
+        "patterns": [
+          "What trains are there from Bangalore to Tiruchirappalli?",
+          "Which trains run from Bangalore to Tiruchirappalli?",
+          "Tell me the trains from Bangalore to Tiruchirappalli",
+          "What are the trains from Bangalore to Tiruchirappalli?",
+          "Give me the train numbers from Bangalore to Tiruchirappalli"
+        ],
+        "responses": [
+          "The following trains are available from Bangalore to Tiruchirappalli: 20672, 16232."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Chennai",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Chennai?",
+          "Which trains run from Thiruvananthapuram to Chennai?",
+          "Tell me the trains from Thiruvananthapuram to Chennai",
+          "What are the trains from Thiruvananthapuram to Chennai?",
+          "Give me the train numbers from Thiruvananthapuram to Chennai"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Chennai: 16128, 12624, 20636, 12696."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Bangalore",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Bangalore?",
+          "Which trains run from Thiruvananthapuram to Bangalore?",
+          "Tell me the trains from Thiruvananthapuram to Bangalore",
+          "What are the trains from Thiruvananthapuram to Bangalore?",
+          "Give me the train numbers from Thiruvananthapuram to Bangalore"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Bangalore: 16525, 22678, 16316, 12258."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Hyderabad",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Hyderabad?",
+          "Which trains run from Thiruvananthapuram to Hyderabad?",
+          "Tell me the trains from Thiruvananthapuram to Hyderabad",
+          "What are the trains from Thiruvananthapuram to Hyderabad?",
+          "Give me the train numbers from Thiruvananthapuram to Hyderabad"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Hyderabad: 17229."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Pune",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Pune?",
+          "Which trains run from Thiruvananthapuram to Pune?",
+          "Tell me the trains from Thiruvananthapuram to Pune",
+          "What are the trains from Thiruvananthapuram to Pune?",
+          "Give me the train numbers from Thiruvananthapuram to Pune"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Pune: 16382."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Mysore",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Mysore?",
+          "Which trains run from Thiruvananthapuram to Mysore?",
+          "Tell me the trains from Thiruvananthapuram to Mysore",
+          "What are the trains from Thiruvananthapuram to Mysore?",
+          "Give me the train numbers from Thiruvananthapuram to Mysore"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Mysore: 16316."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Mumbai",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Mumbai?",
+          "Which trains run from Thiruvananthapuram to Mumbai?",
+          "Tell me the trains from Thiruvananthapuram to Mumbai",
+          "What are the trains from Thiruvananthapuram to Mumbai?",
+          "Give me the train numbers from Thiruvananthapuram to Mumbai"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Mumbai: 16346, 22659, 20931, 12431."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Delhi",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Delhi?",
+          "Which trains run from Thiruvananthapuram to Delhi?",
+          "Tell me the trains from Thiruvananthapuram to Delhi",
+          "What are the trains from Thiruvananthapuram to Delhi?",
+          "Give me the train numbers from Thiruvananthapuram to Delhi"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Delhi: 12625, 22659, 16317, 12431."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Kolkata",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Kolkata?",
+          "Which trains run from Thiruvananthapuram to Kolkata?",
+          "Tell me the trains from Thiruvananthapuram to Kolkata",
+          "What are the trains from Thiruvananthapuram to Kolkata?",
+          "Give me the train numbers from Thiruvananthapuram to Kolkata"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Kolkata: 12659."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Kochi",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Kochi?",
+          "Which trains run from Thiruvananthapuram to Kochi?",
+          "Tell me the trains from Thiruvananthapuram to Kochi",
+          "What are the trains from Thiruvananthapuram to Kochi?",
+          "Give me the train numbers from Thiruvananthapuram to Kochi"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Kochi: 16127, 16606, 20634, 16302, 12076, 16650, 17229, 16382."
+        ]
+      },
+      {
+        "tag": "Thiruvananthapuram_to_Ahmedabad",
+        "patterns": [
+          "What trains are there from Thiruvananthapuram to Ahmedabad?",
+          "Which trains run from Thiruvananthapuram to Ahmedabad?",
+          "Tell me the trains from Thiruvananthapuram to Ahmedabad",
+          "What are the trains from Thiruvananthapuram to Ahmedabad?",
+          "Give me the train numbers from Thiruvananthapuram to Ahmedabad"
+        ],
+        "responses": [
+          "The following trains are available from Thiruvananthapuram to Ahmedabad: 20909, 19577, 16334, 20923."
+        ]
+      },
+         {
+        "tag": "Vijayawada_to_Chennai",
+        "patterns": [
+          "What trains are there from Vijayawada to Chennai?",
+          "Which trains run from Vijayawada to Chennai?",
+          "Tell me the trains from Vijayawada to Chennai",
+          "What are the trains from Vijayawada to Chennai?",
+          "Give me the train numbers from Vijayawada to Chennai"
+        ],
+        "responses": [
+          "The following trains are available from Vijayawada to Chennai: 12760, 12296, 18189, 12711, 12841, 20678."
+        ]
+      },
+      {
+        "tag": "Vijayawada_to_Hyderabad",
+        "patterns": [
+          "What trains are there from Vijayawada to Hyderabad?",
+          "Which trains run from Vijayawada to Hyderabad?",
+          "Tell me the trains from Vijayawada to Hyderabad",
+          "What are the trains from Vijayawada to Hyderabad?",
+          "Give me the train numbers from Vijayawada to Hyderabad"
+        ],
+        "responses": [
+          "The following trains are available from Vijayawada to Hyderabad: 17015, 12759, 12739, 12703, 11020, 12713, 17201, 18519, 20833."
+        ]
+      },
+      {
+        "tag": "Vijayawada_to_Bangalore",
+        "patterns": [
+          "What trains are there from Vijayawada to Bangalore?",
+          "Which trains run from Vijayawada to Bangalore?",
+          "Tell me the trains from Vijayawada to Bangalore",
+          "What are the trains from Vijayawada to Bangalore?",
+          "Give me the train numbers from Vijayawada to Bangalore"
+        ],
+        "responses": [
+          "The following trains are available from Vijayawada to Bangalore: 12296, 12863, 18643, 17210."
+        ]
+      },
+      {
+        "tag": "Vijayawada_to_Delhi",
+        "patterns": [
+          "What trains are there from Vijayawada to Delhi?",
+          "Which trains run from Vijayawada to Delhi?",
+          "Tell me the trains from Vijayawada to Delhi",
+          "What are the trains from Vijayawada to Delhi?",
+          "Give me the train numbers from Vijayawada to Delhi"
+        ],
+        "responses": [
+          "The following trains are available from Vijayawada to Delhi: 12615, 20805, 12621, 12625, 00761."
+        ]
+      },
+      {
+        "tag": "Vijayawada_to_Mumbai",
+        "patterns": [
+          "What trains are there from Vijayawada to Mumbai?",
+          "Which trains run from Vijayawada to Mumbai?",
+          "Tell me the trains from Vijayawada to Mumbai",
+          "What are the trains from Vijayawada to Mumbai?",
+          "Give me the train numbers from Vijayawada to Mumbai"
+        ],
+        "responses": [
+          "The following trains are available from Vijayawada to Mumbai: 11020, 18519, 12755."
+        ]
+    }
+]
